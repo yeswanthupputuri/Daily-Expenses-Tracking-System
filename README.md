@@ -16,10 +16,6 @@ It uses Firebase Authentication for user authentication, Node.js and Express for
 
 ## 🖼️ Application Screenshots
 
-Add your application PNG screenshots to the `docs/images/` directory.
-
-The following image references are placeholders. Replace the filenames with the actual names of your screenshots.
-
 ### Login Page
 
 ![DailySpend Login Page](docs/images/login.png)
@@ -181,9 +177,6 @@ REDIS_URL=redis://redis:6379
 | `FIREBASE_SERVICE_ACCOUNT_PATH` | Path to the Firebase Admin service-account JSON file |
 | `REDIS_URL` | Redis connection URL |
 
-> Replace the MongoDB environment variable name with the exact name used in your `db.ts` implementation if it differs.
-
-For Docker Compose, the Redis hostname is `redis`, because Redis is another service on the Compose network.
 
 When running the backend directly on the host machine, the Redis URL would typically be:
 
@@ -224,21 +217,4 @@ Potential enhancements for future development:
 
 These are future improvements and are not all part of the current implementation.
 
----
-
-## ⭐ Project Summary
-
-DailySpend is a expense tracking application built using React, Node.js, Express, Firebase Authentication, MongoDB Atlas, Redis, and Docker.
-
-The project demonstrates:
-
-- Full-stack application development.
-- Authentication and protected REST APIs.
-- User-specific persistent data storage.
-- Redis cache-aside implementation.
-- TTL-based cache expiration.
-- Cache invalidation after database writes.
-- Docker containerization and service orchestration.
-
-MongoDB Atlas remains the source of truth, while Redis improves the efficiency of repeated data retrieval.
 
