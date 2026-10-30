@@ -93,6 +93,7 @@ DailySpend/
 
 ---
 
+---
 ## 🔌 API Endpoints
 
 All expense, recurring-payment, and settings endpoints require Firebase authentication.
