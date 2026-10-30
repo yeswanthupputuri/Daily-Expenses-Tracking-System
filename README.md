@@ -90,8 +90,7 @@ DailySpend/
     │
     ├── .env
     └── firebase-service-account.json
-
----
+```
 
 ---
 ## 🔌 API Endpoints
